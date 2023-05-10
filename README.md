@@ -1,7 +1,5 @@
-- 👋 Hi, I’m @vamsikrishnacanchi
-- 👀 I’m interested in Python, Artificial Intelligence, Machine Learning, Deep Learning, Docker
-- 🌱 I’m currently learning (continous learning) Python, Artificial Intelligence, Machine Learning, Deep Learning, Docker
-- 💞️ I’m looking to collaborate on Python, Artificial Intelligence, Machine Learning, Deep Learning, Docker
+- 👋 Hi, I’m @ Vamsi Krishna Canchi
+- 👀 I’m interested in Python, AI - ML & DL, Docker
 - 📫 How to reach me canchivamsikrishna@outlook.in
 
 <!---
