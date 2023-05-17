@@ -1,3 +1,21 @@
+log.py
+
+class dl_logger():
+    
+    def __init__(self):
+        self.test = logger.bind(task="test")
+        logger.add("logs/test.log", format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}", colorize = True, filter=lambda record: record["extra"]["task"] == "test")
+        self.train = logger.bind(task="train")
+        logger.add("logs/train.log", format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}", colorize = True, filter=lambda record: record["extra"]["task"] == "train")
+        # self.train = logger.bind(task="config")
+        # logger.add("logs/config.log", format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}", colorize = True, filter=lambda record: record["extra"]["task"] == "config")
+    def info(self, message, task):
+        if task=="test":
+            self.test.info(message)
+        if task=="train":
+            self.train.info(message)
+
+
 properties.json
 {
     "project": {
