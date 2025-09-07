@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ Vamsi Krishna Canchi
-- 👀 I’m interested in Python, AI - ML & DL, Docker
+- 👀 I’m interested in AI & Quantum
 - 📫 How to reach me canchivamsikrishna@outlook.in
 
 <!---
